@@ -3,7 +3,7 @@ import csv
 from argparse import ArgumentParser
 from time import sleep
 
-import settings
+import local_settings as settings
 from mozscape import Mozscape
 from utils import chunks, get_hostname
 
