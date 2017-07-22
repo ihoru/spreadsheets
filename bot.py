@@ -106,7 +106,7 @@ def main():
 
     dp.add_error_handler(Commands.error)
 
-    updater.start_polling()
+    updater.start_polling(timeout=300, allowed_updates=['message'])
     updater.idle()
 
 
